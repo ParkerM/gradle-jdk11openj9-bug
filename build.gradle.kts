@@ -1,5 +1,10 @@
 plugins {
+    application
     java
+}
+
+application {
+    mainClassName = "my.project.Application"
 }
 
 java {
