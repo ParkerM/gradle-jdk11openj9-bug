@@ -12,5 +12,13 @@ java {
     targetCompatibility = JavaVersion.VERSION_11
 }
 
-group = "my.project"
+group = "my"
 version = "0.0.1-SNAPSHOT"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation("junit:junit:4.12")
+}
