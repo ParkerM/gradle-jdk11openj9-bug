@@ -3,13 +3,13 @@ plugins {
     java
 }
 
-application {
-    mainClassName = "my.project.Application"
-}
-
-java {
+configure<JavaPluginExtension> {
     sourceCompatibility = JavaVersion.VERSION_11
     targetCompatibility = JavaVersion.VERSION_11
+}
+
+application {
+    mainClassName = "my.project.Application"
 }
 
 group = "my"
