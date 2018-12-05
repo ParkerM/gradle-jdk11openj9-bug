@@ -3,4 +3,4 @@ services:
   - docker
 
 script:
-  - chmod +x gradlew && docker build .
+  - chmod +x gradlew && echo $GRADLE_OPTS && echo $JAVA_TOOL_OPTIONS && docker build .
