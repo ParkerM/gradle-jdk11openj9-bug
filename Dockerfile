@@ -7,4 +7,4 @@ ENV GRADLE_OPTS "-Dorg.gradle.daemon=false -Dorg.gradle.jvmargs='-Xshareclasses 
 COPY . .
 RUN echo $GRADLE_OPTS && \
     echo $JAVA_TOOL_OPTIONS && \
-    ./gradlew assemble --debug --full-stacktrace
+    ./gradlew :assemble --debug --full-stacktrace
