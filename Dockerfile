@@ -3,7 +3,7 @@ FROM adoptopenjdk/openjdk11-openj9:x86_64-alpine-jdk11u-nightly-slim
 WORKDIR /bugzone
 ENV GRADLE_USER_HOME /bugzone/.gradle
 ENV GRADLE_OPTS "-Dorg.gradle.daemon=false -Dorg.gradle.jvmargs='-Xshareclasses -Xscmx60M -Xscmaxaot8M -Xquickstart'"
-ENV JAVA_TOOL_OPTIONS ""
+ENV JAVA_TOOL_OPTIONS "-Xnoint"
 
 
 COPY . .
