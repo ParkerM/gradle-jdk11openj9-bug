@@ -8,13 +8,6 @@ configure<JavaPluginExtension> {
     targetCompatibility = JavaVersion.VERSION_11
 }
 
-application {
-    mainClassName = "my.project.Application"
-}
-
-group = "my"
-version = "0.0.1-SNAPSHOT"
-
 repositories {
     jcenter()
     mavenCentral()
@@ -22,4 +15,8 @@ repositories {
 
 dependencies {
     testImplementation("junit:junit:4.12")
+}
+
+application {
+    mainClassName = "my.project.Application"
 }
