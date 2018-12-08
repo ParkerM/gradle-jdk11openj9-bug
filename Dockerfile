@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11-openj9:jdk-11.0.1.13-alpine-slim
+FROM registry.gitlab.com/parkerm/adopt11j9-docker:master
 
 WORKDIR /bugzone
 ENV GRADLE_USER_HOME /bugzone/.gradle
