@@ -1,4 +1,4 @@
-# Using adoptopenjdk/openjdk11-openj9:jdk-11.0.1.13-alpine-slim
+# Using registry.gitlab.com/parkerm/adopt11j9-docker:master  (from https://gitlab.com/ParkerM/adopt11j9-docker/blob/master/Dockerfile)
 
 # java -XshowSettings:properties -version
 Property settings:
@@ -7,19 +7,19 @@ Property settings:
     com.ibm.jcl.checkClassPath =
     com.ibm.oti.configuration = scar
     com.ibm.oti.shared.enabled = false
-    com.ibm.oti.vm.bootstrap.library.path = /opt/java/openjdk/lib/compressedrefs
-        /opt/java/openjdk/lib
+    com.ibm.oti.vm.bootstrap.library.path = /jdk/lib/compressedrefs
+        /jdk/lib
     com.ibm.oti.vm.library.version = 29
-    com.ibm.system.agent.path = /opt/java/openjdk/lib
+    com.ibm.system.agent.path = /jdk/lib
     com.ibm.util.extralibs.properties =
     com.ibm.vm.bitmode = 64
-    file.encoding = ANSI_X3.4-1968
+    file.encoding = UTF-8
     file.encoding.pkg = sun.io
     file.separator = /
     ibm.signalhandling.rs = false
     ibm.signalhandling.sigchain = true
     ibm.signalhandling.sigint = true
-    ibm.system.encoding = ANSI_X3.4-1968
+    ibm.system.encoding = UTF-8
     java.awt.fonts =
     java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
     java.awt.printerjob = sun.print.PSPrinterJob
@@ -31,10 +31,10 @@ JRE 11 Linux amd64-64-Bit Compressed References 20181115_18 (JIT enabled, AOT en
 OpenJ9   - 090ff9dcd
 OMR      - ea548a66
 JCL      - d4455071ce based on jdk-11.0.1+13
-    java.home = /opt/java/openjdk
+    java.home = /jdk
     java.io.tmpdir = /tmp
-    java.library.path = /opt/java/openjdk/lib/compressedrefs
-        /opt/java/openjdk/lib
+    java.library.path = /jdk/lib/compressedrefs
+        /jdk/lib
         /usr/lib64
         /usr/lib
     java.runtime.name = OpenJDK Runtime Environment
@@ -62,18 +62,18 @@ JCL      - d4455071ce based on jdk-11.0.1+13
     jdk.extensions.version = 11.0.0.2
     line.separator = \n
     os.arch = amd64
-    os.encoding = ANSI_X3.4-1968
+    os.encoding = UTF-8
     os.name = Linux
     os.version = 4.9.125-linuxkit
     path.separator = :
     sun.arch.data.model = 64
-    sun.boot.library.path = /opt/java/openjdk/lib/compressedrefs
-        /opt/java/openjdk/lib
+    sun.boot.library.path = /jdk/lib/compressedrefs
+        /jdk/lib
     sun.cpu.endian = little
     sun.io.unicode.encoding = UnicodeLittle
     sun.java.launcher = SUN_STANDARD
-    sun.java.launcher.pid = 39
-    sun.jnu.encoding = ANSI_X3.4-1968
+    sun.java.launcher.pid = 389
+    sun.jnu.encoding = UTF-8
     user.country = US
     user.dir = /zipbug
     user.home = /root
