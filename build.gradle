@@ -1,6 +1,6 @@
 plugins {
-    application
-    java
+    id("application")
+    id("java")
 }
 
 java {
