@@ -1,0 +1,90 @@
+# Using adoptopenjdk/openjdk11-openj9:jdk-11.0.1.13-alpine-slim
+
+# java -XshowSettings:properties -version
+Property settings:
+    awt.toolkit = sun.awt.X11.XToolkit
+    com.ibm.cpu.endian = little
+    com.ibm.jcl.checkClassPath =
+    com.ibm.oti.configuration = scar
+    com.ibm.oti.shared.enabled = false
+    com.ibm.oti.vm.bootstrap.library.path = /opt/java/openjdk/lib/compressedrefs
+        /opt/java/openjdk/lib
+    com.ibm.oti.vm.library.version = 29
+    com.ibm.system.agent.path = /opt/java/openjdk/lib
+    com.ibm.util.extralibs.properties =
+    com.ibm.vm.bitmode = 64
+    file.encoding = ANSI_X3.4-1968
+    file.encoding.pkg = sun.io
+    file.separator = /
+    ibm.signalhandling.rs = false
+    ibm.signalhandling.sigchain = true
+    ibm.signalhandling.sigint = true
+    ibm.system.encoding = ANSI_X3.4-1968
+    java.awt.fonts =
+    java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+    java.awt.printerjob = sun.print.PSPrinterJob
+    java.class.path =
+    java.class.version = 55.0
+    java.compiler = j9jit29
+    java.fullversion = 11.0.1+13
+JRE 11 Linux amd64-64-Bit Compressed References 20181115_18 (JIT enabled, AOT enabled)
+OpenJ9   - 090ff9dcd
+OMR      - ea548a66
+JCL      - d4455071ce based on jdk-11.0.1+13
+    java.home = /opt/java/openjdk
+    java.io.tmpdir = /tmp
+    java.library.path = /opt/java/openjdk/lib/compressedrefs
+        /opt/java/openjdk/lib
+        /usr/lib64
+        /usr/lib
+    java.runtime.name = OpenJDK Runtime Environment
+    java.runtime.version = 11.0.1+13
+    java.specification.name = Java Platform API Specification
+    java.specification.vendor = Oracle Corporation
+    java.specification.version = 11
+    java.util.prefs.PreferencesFactory = java.util.prefs.FileSystemPreferencesFactory
+    java.vendor = Eclipse OpenJ9
+    java.vendor.url = http://www.eclipse.org/openj9
+    java.vendor.version = AdoptOpenJDK
+    java.version = 11.0.1
+    java.version.date = 2018-10-16
+    java.vm.info = JRE 11 Linux amd64-64-Bit Compressed References 20181115_18 (JIT enabled, AOT enabled)
+OpenJ9   - 090ff9dcd
+OMR      - ea548a66
+JCL      - d4455071ce based on jdk-11.0.1+13
+    java.vm.name = Eclipse OpenJ9 VM
+    java.vm.specification.name = Java Virtual Machine Specification
+    java.vm.specification.vendor = Oracle Corporation
+    java.vm.specification.version = 11
+    java.vm.vendor = Eclipse OpenJ9
+    java.vm.version = openj9-0.11.0
+    jdk.extensions.name = Extensions for OpenJDK for Eclipse OpenJ9
+    jdk.extensions.version = 11.0.0.2
+    line.separator = \n
+    os.arch = amd64
+    os.encoding = ANSI_X3.4-1968
+    os.name = Linux
+    os.version = 4.9.125-linuxkit
+    path.separator = :
+    sun.arch.data.model = 64
+    sun.boot.library.path = /opt/java/openjdk/lib/compressedrefs
+        /opt/java/openjdk/lib
+    sun.cpu.endian = little
+    sun.io.unicode.encoding = UnicodeLittle
+    sun.java.launcher = SUN_STANDARD
+    sun.java.launcher.pid = 39
+    sun.jnu.encoding = ANSI_X3.4-1968
+    user.country = US
+    user.dir = /zipbug
+    user.home = /root
+    user.language = en
+    user.name = root
+    user.timezone =
+    user.variant =
+
+openjdk version "11.0.1" 2018-10-16
+OpenJDK Runtime Environment AdoptOpenJDK (build 11.0.1+13)
+Eclipse OpenJ9 VM AdoptOpenJDK (build openj9-0.11.0, JRE 11 Linux amd64-64-Bit Compressed References 20181115_18 (JIT enabled, AOT enabled)
+OpenJ9   - 090ff9dcd
+OMR      - ea548a66
+JCL      - d4455071ce based on jdk-11.0.1+13)
