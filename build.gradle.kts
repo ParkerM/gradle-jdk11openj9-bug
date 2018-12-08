@@ -9,7 +9,6 @@ configure<JavaPluginExtension> {
 }
 
 repositories {
-    jcenter()
     mavenCentral()
 }
 
